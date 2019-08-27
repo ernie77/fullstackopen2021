@@ -1,0 +1,7 @@
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over palvelin:
+palvelin saa POST-pyynnössä lähetetyn datan
+kentästä JSON-muodossa ja luo muistiinpanoa 
+vastaavan olion taulukkoon nimeltään notes:
+end note
+palvelin-->selain: HTML-status code 201
